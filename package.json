@@ -1,0 +1,32 @@
+{
+  "name": "reqtrace",
+  "version": "0.0.1",
+  "description": "Request Tracer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/qzaidi/reqtrace"
+  },
+  "keywords": [
+    "Express",
+    "Request",
+    "Tracing",
+    "RID"
+  ],
+  "author": "Qasim Zaidi",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/qzaidi/reqtrace/issues"
+  },
+  "homepage": "https://github.com/qzaidi/reqtrace",
+  "dependencies": {
+    "continuation-local-storage": "^3.1.1",
+    "node-uuid": "^1.4.1"
+  },
+  "devDependencies": {
+    "express": "*"
+  }
+}
